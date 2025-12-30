@@ -1,20 +1,20 @@
-* radio.onReceivedValueDeprecated(function (name, value) {
-*    if (name == "A") {
-*        arm = value
-*    }
-*    if (name == "R") {
-*        roll = value
-*    }
-*    if (name == "T") {
-*        throttle = value
-*    }
-*})
+//radio.onReceivedValueDeprecated(function (name, value) {
+//    if (name == "A") {
+//        arm = value
+//    }
+//    if (name == "R") {
+//        roll = value
+//    }
+//    if (name == "T") {
+//        throttle = value
+//    }
+//})
 let throttle = 0
 let roll = 0
 let arm = 0
-let radioGroup = 7
-* radio.setGroup(radioGroup)
-* basic.showNumber(radioGroup)
+// let radioGroup = 7
+// radio.setGroup(radioGroup)
+// basic.showNumber(radioGroup)
 if (arm) {
     while (arm) {
         basic.showIcon(IconNames.No)
