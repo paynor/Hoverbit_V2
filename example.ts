@@ -13,8 +13,8 @@ let throttle = 0
 let roll = 0
 let arm = 0
 let radioGroup = 7
-radio.setGroup(radioGroup)
-basic.showNumber(radioGroup)
+* radio.setGroup(radioGroup)
+* basic.showNumber(radioGroup)
 if (arm) {
     while (arm) {
         basic.showIcon(IconNames.No)
