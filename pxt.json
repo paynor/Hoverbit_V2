@@ -3,9 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "microphone": "*",
-        "radio": "*"
-    },
+        "microphone": "*"
+           },
     "files": [
         "main.blocks",
         "README.md",
