@@ -22,7 +22,7 @@ if (arm) {
     basic.showIcon(IconNames.Yes)
 }
 basic.forever(function () {
-    basic.showNumber(Math.round(throttle / 10))
+//    basic.showNumber(Math.round(throttle / 10))
 })
 basic.forever(function () {
     if (arm) {
