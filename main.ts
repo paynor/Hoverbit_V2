@@ -4,7 +4,7 @@ let arm = 0
 
 basic.forever(function () {
     if (arm) {
-    //    hoverbit.start_cushion_simple()
+        hoverbit.start_cushion_simple()
         hoverbit.forward_power_simple(throttle)
     } else {
         hoverbit.stop_all_motors()
