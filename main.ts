@@ -11,7 +11,7 @@
 //})
 let throttle = 0
 let roll = 0
-let arm = 0
+let arm = 1
 // let radioGroup = 7
 // radio.setGroup(radioGroup)
 // basic.showNumber(radioGroup)
