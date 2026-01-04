@@ -1,5 +1,5 @@
 let throttle = 0
-let roll = 0
+let turn = 0
 let arm = 0
 
 basic.forever(function () {
@@ -9,5 +9,5 @@ basic.forever(function () {
     } else {
         hoverbit.stop_all_motors()
     }
-    hoverbit.direction_simple(roll)
+    hoverbit.direction_simple(turn)
 })
